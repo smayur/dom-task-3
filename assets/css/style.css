@@ -473,7 +473,7 @@ sub { bottom: -.25em; }
 
   .card-overlay{
     position: absolute;
-    top: 30%;
+    top: 22%;
     left: 15%;
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
@@ -509,6 +509,60 @@ sub { bottom: -.25em; }
     }
   }
   /* ------------- About us ends here ------------- */
+
+  /* ------------- contact us starts here ------------- */
+
+  .contact-us {
+    width: 100%;
+    background-color: #ecf0f1;
+  }
+
+  .contact-us .wrapper { padding: 51px 0 70px 0; }
+
+  .contact-us-header { 
+    text-align: center; 
+    margin-bottom: 34px;
+    color: var(--text-color);
+  }
+
+  .contact-us-subheadline { font-size: 15px; }
+  .form-and-information { display: flex; }
+  .form-and-information > * { width: 50%; }
+
+  .information-details{ 
+    display: block;
+    color: var(--text-color);
+    font-size: 15px;
+  }
+
+  .information-details:not(:first-child):not(:last-child) { 
+    margin-bottom: 10px;
+    text-transform: capitalize; 
+  }
+
+  .information-details:first-child { 
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+  }
+
+  .information-details:nth-child(2) > p { margin-left: 15px; }
+
+  .address::after, 
+  .phone::after,
+  .fax::after,
+  .mail::after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .address::after { content: '\f3c5'; }
+  .phone::after { content: '\f87b'; }
+  .fax::after { content: '\f02f'; }
+  .mail::after { content: '\f0e0'; }
+
+
+  /* ------------- contact us ends here ------------- */
 /* ==========================================================================
   Main ends here
   ========================================================================== */
