@@ -29,36 +29,37 @@
 
   <!-- container start -->
   <div class="container">
+    
+    <!-- Header section starts here -->
+    <header>
+      <div class="wrapper">
+        <!-- logo starts here -->
+        <h1 class="logo">
+          <figure class="logo-image">
+            <img src="./assets/images/b (1).png" alt="logo" />
+          </figure>
+          <div class="logo-text">
+            <p class="logo-title">bak-one</p>
+            <p class="logo-description">one page flat template</p>
+          </div>
+        </h1>
+        <!-- logo ends here -->
+        <!-- Navbar starts here -->
+        <nav class="navbar">
+          <ul class="menu-list">
+            <li class="menu"><a href="index.html" class="menu-link btn" title="home">home</a></li>
+            <li class="menu"><a href="#" class="menu-link btn" title="portfolio">portfolio</a></li>
+            <li class="menu"><a href="#" class="menu-link btn" title="about">about</a></li>
+            <li class="menu"><a href="#" class="menu-link btn" title="contact">contact</a></li>
+          </ul>
+        </nav>
+        <!-- Navbar ends here -->
+      </div>
+    </header>
+    <!-- Header section ends here -->
+
     <!-- Main section start -->
     <main>
-      <!-- Header section starts here -->
-      <header>
-        <div class="wrapper">
-          <!-- logo starts here -->
-          <h1 class="logo">
-            <figure class="logo-image">
-              <img src="./assets/images/b (1).png" alt="logo" />
-            </figure>
-            <div class="logo-text">
-              <p class="logo-title">bak-one</p>
-              <p class="logo-description">one page flat template</p>
-            </div>
-          </h1>
-          <!-- logo ends here -->
-          <!-- Navbar starts here -->
-          <nav class="navbar">
-            <ul class="menu-list">
-              <li class="menu"><a href="index.html" class="menu-link btn" title="home">home</a></li>
-              <li class="menu"><a href="#" class="menu-link btn" title="portfolio">portfolio</a></li>
-              <li class="menu"><a href="#" class="menu-link btn" title="about">about</a></li>
-              <li class="menu"><a href="#" class="menu-link btn" title="contact">contact</a></li>
-            </ul>
-          </nav>
-          <!-- Navbar ends here -->
-        </div>
-      </header>
-      <!-- Header section ends here -->
-
       <!-- Banner section starts here -->
       <div class="banner">
         <div class="wrapper">
@@ -249,14 +250,22 @@
           </div>
           <div class="form-and-information">
             <form action="#" method="post">
-              <input type="text" name="name" class="name" placeholder="Your name"/>
-              <input type="email" name="email" class="email" placeholder="Your email"/>
-              <textarea name="message" class="message" placeholder="Your message"></textarea>
-              <input type="submit" class="btn submit" value="submit">
+              <div class="input-group input-name">
+                    <input type="text" name="name" class="name" placeholder="Your name"/>
+              </div>
+              <div class="input-group input-email">
+                  <input type="email" name="email" class="email" placeholder="Your email"/>
+              </div>
+              <div class="input-group input-messaage">
+                  <textarea name="message" class="message" placeholder="Your message"></textarea>
+              </div>
+              <div class="input-group input-submit">
+                   <input type="submit" class="btn submit" value="submit">
+              </div>
             </form>
             <ul class="information-list">
               <li class="information-details">information</li>
-              <li class="information-details"><span class="address"></span> bak-one company 12345 hollywood bvld street los angeles, california</li>
+              <li class="information-details"><span class="address"></span> bak-one company <p>12345 hollywood bvld street</p> <p>los angeles, california</p></li>
               <li class="information-details"><span class="phone"></span> +444 (phone) 123456</li>
               <li class="information-details"><span class="fax"></span> +123 (fax) 0011223</li>
               <li class="information-details"><span class="mail"></span> info@bak-onecompany.com</li>
@@ -265,21 +274,21 @@
         </div>
       </section>
       <!-- Contact us section ends here -->
-
-      <!-- Footer section starts here -->
-      <footer>
-        <div class="wrapper">
-          <ul class="footer-information">
-            <li><span class="copy-right"></span> copyright 2013 bak-one</li>
-            <li>one page flat template</li>
-          </ul>
-          <a href="#" class="scroll-button btn"><span class="up-arrow"></span></a>
-        </div>
-      </footer>
-      <!-- Footer section ends here -->
-
     </main>
     <!-- Main section ends -->
+
+    <!-- Footer section starts here -->
+    <footer>
+      <div class="wrapper">
+        <ul class="footer-information">
+          <li><span class="copy-right"></span> copyright 2013 bak-one</li>
+          <li>one page flat template</li>
+        </ul>
+        <a href="#" class="scroll-button btn"><span class="up-arrow"></span></a>
+      </div>
+    </footer>
+    <!-- Footer section ends here -->
+
   </div>
   <!-- container ends -->
 
