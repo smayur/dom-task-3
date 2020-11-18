@@ -528,11 +528,47 @@ sub { bottom: -.25em; }
   .contact-us-subheadline { font-size: 15px; }
   .form-and-information { display: flex; }
   .form-and-information > * { width: 50%; }
+  .information-list { margin-left: 15px; }
+
+  .input-group { 
+    margin-bottom: 24px;
+    display: inline-block; 
+  }
+
+  .input-name { margin-right: 18px; }
+  .input-message { width: 101.2%; }
+  .input-submit { float: right; }
+
+  .name,
+  .email,
+  .message {
+    padding: 14px 16px;
+    border: 2px solid #c2c7ca;
+  }
+
+  .name, .email { width: 247px; }
+
+  .message {
+    width: 98%;
+    height: 153px;
+  }
+
+  .submit {
+    padding: 12px 33px;
+    border: 1px solid #1bbc9b;
+    background: #1bbc9b;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: var(--time);
+  }
 
   .information-details{ 
     display: block;
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 14px;
+    line-height: 1.6;
   }
 
   .information-details:not(:first-child):not(:last-child) { 
@@ -541,7 +577,7 @@ sub { bottom: -.25em; }
   }
 
   .information-details:first-child { 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-transform: uppercase; 
   }
 
@@ -561,6 +597,13 @@ sub { bottom: -.25em; }
   .fax::after { content: '\f02f'; }
   .mail::after { content: '\f0e0'; }
 
+
+  @media screen and (min-width: 767px) {
+    .submit:hover {
+      background: #fff;
+      color: #1bbc9b;
+    }
+  }
 
   /* ------------- contact us ends here ------------- */
 /* ==========================================================================
