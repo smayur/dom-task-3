@@ -517,11 +517,11 @@ sub { bottom: -.25em; }
     background-color: #ecf0f1;
   }
 
-  .contact-us .wrapper { padding: 51px 0 70px 0; }
+  .contact-us .wrapper { padding: 51px 0 36px 0; }
 
   .contact-us-header { 
     text-align: center; 
-    margin-bottom: 34px;
+    margin-bottom: 48px;
     color: var(--text-color);
   }
 
@@ -608,4 +608,62 @@ sub { bottom: -.25em; }
   /* ------------- contact us ends here ------------- */
 /* ==========================================================================
   Main ends here
+  ========================================================================== */
+/* ==========================================================================
+  Footer starts here
+  ========================================================================== */
+
+  footer {
+    width: 100%;
+    background-color: #2d3e50;
+  }
+
+  footer .wrapper { 
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-information li { 
+    font-size: 15px;
+    text-transform: capitalize; 
+  }
+
+  .footer-information li:first-child::after {
+    content: '|';
+    margin-left: 8px;
+  }
+
+  .copy-right::after {
+    content: '\00A9';
+    font-size: 16px;
+  }
+
+  .scroll-button {
+    padding: 9px 14px;
+    border-color: #1bbc9b;
+    background-color: #1bbc9b;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 149px;
+  }
+
+  .up-arrow::after {
+    content: '\f077';
+    font-family: "Font Awesome 5 Free";
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  @media screen and (min-width: 767px) {
+    .scroll-button:hover {
+      background: #fff;
+      color: #1bbc9b;
+    }
+  }
+
+/* ==========================================================================
+  Footer ends here
   ========================================================================== */
